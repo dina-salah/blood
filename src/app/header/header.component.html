@@ -1,0 +1,28 @@
+<div class="navbar navbar-default">
+    <div class="navbar-header">
+        <p class="navbar-brand" style="margin-left: 10px;" >LOGO</p>
+        <!-- <img src=".\assets\logo1.jpeg"> -->
+    </div>
+    <div >
+        <a href="#" routerLink="" class="upper-header">Contact Us</a>
+        <a href="#" routerLink="" class="upper-header">Login</a>
+        <a href="#" routerLink="/src/app/sginup" routerLinkActive="active" class="upper-header">Sign Up</a>
+        <button (click)="clickSearch()" class="btn btn-danger" style="margin-right: 8px; margin-left: 4px;" >Search</button>
+    </div>
+    
+</div>
+
+<div  class="nav-bar">
+    <div class="nav-links">
+        <div class="navbar-brand">
+        <a href="">Home</a>
+        <a href="">Donate</a>
+        <a href="">Blood drive</a>
+        <a href="">Learn</a>
+        <a href="">Request</a>
+        <a href="">About us</a>
+    </div>
+</div>
+</div>
+
+<app-search [display]= "displaySearch" class="navbar-brand" ></app-search>

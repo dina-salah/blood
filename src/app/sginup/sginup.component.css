@@ -1,0 +1,36 @@
+.warning{
+    color: red;
+}
+.body{
+    text-align: center;
+}
+.sign-up-label{
+    margin: 35px;
+}
+.rad-label{
+    
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    border-radius: 100px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.rad-label:hover{
+background: hsla(0, 0%, 80%, .14);
+}
+.rad-input{
+    top: 0;
+    width: 1px;
+    height: 1px;
+}
+.usertype-box{
+    display: grid;
+    place-content: center;
+    box-sizing: border-box;
+}
+.rad-text{
+    width: 250px;
+    padding-top: 5px;
+}
