@@ -28,14 +28,16 @@
 --> 
 
 <div class="navbar navbar-default " style="padding-top: 15px; width: 1300px;">
+    
     <div class="navbar-brand">
         <img src="assets/logo1.jpeg" style="height: 40px; width: 40px;">
     </div>
+
     <div class="justify-content-end">
-        <a href="#" routerLink="" class="upper-header">Home</a>
+        <a href="#" routerLink="/home" routerLinkActive="active" class="upper-header">Home</a>
         <a href="#" routerLink="" class="upper-header">Contact Us</a>
-        <a href="#" routerLink="" class="upper-header">Login</a>
-        <a href="#" routerLink="/src/app/sginup" routerLinkActive="active" class="upper-header ">Sign Up</a>
+        <a href="#" routerLink="/signin" routerLinkActive="active" class="upper-header">Login</a>
+        <a href="#" routerLink="/sginup" routerLinkActive="active" class="upper-header ">Sign Up</a>
         <a href="#" routerLink="" class="upper-header">About us</a>
         <button (click)="clickSearch()" class="btn btn-danger" style="margin-right: 8px; margin-left: 4px;" >Search</button>
 
