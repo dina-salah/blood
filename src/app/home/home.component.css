@@ -38,3 +38,22 @@ p{
     padding: 10px;
     padding-bottom: 15px;
 }
+
+.image-background{
+    background-size: cover;
+    width: 1400px; 
+    height: 500px;
+    background-repeat: no-repeat;
+    padding: 15px;
+    margin: 8px;
+}
+.donate{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 20PX; 
+    background-color: darkred; 
+    border-color: darkred; 
+    color: whitesmoke; 
+    padding: 5px; 
+    border-radius: 5px; 
+    margin:19px ;
+}

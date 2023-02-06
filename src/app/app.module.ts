@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { SigninComponent } from './signin/signin.component';
 import { SliderComponent } from './slider/slider.component';
 import { FooterComponent } from './footer/footer.component';
+import { HelpbarComponent } from './helpbar/helpbar.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     SigninComponent,
     SliderComponent,
-    FooterComponent
+    FooterComponent,
+    HelpbarComponent
   ],
   imports: [
     BrowserModule,

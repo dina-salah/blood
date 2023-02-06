@@ -1,38 +1,41 @@
-.nav-bar{
+/* .nav-bar{
     padding: 30px;
     display: flex;
     background-color: #35445f;
     color: white;
     margin-right:3px ;
-}
+} */
 
-.nav-links{
+/* .nav-links{
     margin-left: 500px;
-}
+} */
 
 /* .logo{
 margin-left: 0px;
 } */
 
-a{  text-decoration: none;
-    padding: 20px 30px;
-    color: white;
+a{   
+    text-decoration: none;
+    font-family:   Impact, Haettenschweiler, 'Arial Narrow Bold'; 
+    font-size: 20px;
+    margin: 5px;
+    
     }
 
-a:hover{
+/* a:hover{
 
     background-color: white;
     border-radius: 10px;
-    color: #35445f;
-    }
+    color: #35445f; 
+    
+    } */
     .upper-header{
-        background-color: white;
-        color: #35445f;
+        color: darkred;
         padding: 20px 30px;
     }
 
     .upper-header:hover {  
-        background-color:  #35445f;
-        padding: 10px;
-        color: white;
-        }
+        color: darkgray;
+        border-bottom: 5px solid white;
+        border-radius: 3px;
+        } 
